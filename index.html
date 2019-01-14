@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Simon-Improved</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h2>Simon</h2>
+        <h3>Hoff Edition</h3>
+      </header>
+      <div class= "square-container">
+        <div class="square-half">
+          <button class="square blue" data-key="1">
+          </button>
+          <button class="square yellow" data-key="2">
+          </button>
+        </div>
+        <div class="square-half">
+        <button class="square red" data-key="3">
+        </button>
+        <button class="square green" data-key="4">
+        </button>
+        </div>
+      </div>
+
+      <div class="controls-container">
+        <div class="screen-ctr item">
+          <p class="screen">--</p>
+        </div>
+        <div class="btn-ctr item">
+        <p>Start<p/>
+        <button id="start" class="start btn"></button>
+        </div>
+        <div class="btn-ctr item">
+        <p>Strict<p/>
+        <button id="strict" class="strict btn"></button>
+        </div>
+        <div class="btn-ctr item">
+        <p>Power<p/>
+        <button id="power" class="btn"></button>
+        </div>
+      </div>
+    </div>
+
+
+    <audio data-sound="1" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+    <audio data-sound="2" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+    <audio data-sound="3" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
+    <audio data-sound="4" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
+    <audio data-sound="error" src="sounds/fart.mp3"></audio>
+
+    <script src='script.js'></script>
+  </body>
+</html>
